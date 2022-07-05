@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+display: inline-block;
+    text-align: center;
+    border: 39px solid #f1f1f1;
+}
+table{
+    margin: auto;
+}
+input{
+font-size: 20px;
+    padding: 1em;
+    width: 16em;
+    height: 5em;
+    border: 5px solid darkcyan;
+    border-radius: 1em;
+    margin-bottom: 0.4em;
+}
+button{
+    font-size: 30px;
+        padding: 1em;
+        width: 2.6em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        background-color: lightgray;
+        justify-content: center;
+        border: 7px solid darkcyan;
+        cursor: pointer;
+        border-radius: 2em;
+    }
