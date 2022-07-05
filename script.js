@@ -9,7 +9,11 @@ for (let i = 0; i < buttons.length; i++){
             buttonText = '*';
             screenValue += buttonText;
             screen.value = screenValue;
-        } else if (buttonText == 'c') {
+        } else if (buttonText == 'RM') {
+            buttonText = '%';
+            screenValue += buttonText;
+            screen.value = screenValue;
+        }else if (buttonText == 'c') {
             screenValue = '';
             screen.value = screenValue;
         } else if (buttonText == '=') {
